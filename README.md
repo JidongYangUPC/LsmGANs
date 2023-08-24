@@ -1,6 +1,6 @@
 # LsmGANs: Image-domain least-squares migration using a new framework of generative adversarial networks
 
-We develop a new GAN framework that is more suitable for the Hessian approximation of image-domain LSM, which is named as LsmGANs. In the new framework, we use a max-pooling instead of convolution to downsample the feature maps to capture horizontal and vertical variations of reflectors. This enables us to map reflection events to correct location in downsampling. Below are the relevant figures and the full code.
+We develop a new GAN framework that is more suitable for the Hessian approximation of image-domain LSM, which is named as LsmGANs. In the new framework, we use a max-pooling instead of convolution to downsample the feature maps to capture horizontal and vertical variations of reflectors. This enables us to map reflection events to correct location in downsampling. To address the lateral discontinuity of events in the predicted image from conventional GANs, we further apply multiple transform layers to strengthen feature transformation to guide Hessian approximation. Finally, we add the skip connection in the transform layer to enhance the information exchange of the feature channels and avoid the gradient vanishing problem to improve image resolution. Below are the relevant figures and the full code.
 
 ![b09c5f748e59d0e3f31285fe81437c1](README.assets/b09c5f748e59d0e3f31285fe81437c1.png)
 
