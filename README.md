@@ -12,7 +12,7 @@ We develop a new GAN framework that is more suitable for the Hessian approximati
 
 ## Link to related article
 
-[click this link](https://ieeexplore.ieee.org/document/10215494) for more details.
+[click this link](https://ieeexplore.ieee.org/abstract/document/10215494) for more details.
 
 
 
@@ -23,17 +23,19 @@ When using this model, please cite the following references:
 **GB/T 7714:**
 
 ```
-Sun J, Yang J, Huang J, et al. LsmGANs: Image-domain least-squares migration using a new framework of generative adversarial networks[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
+J. Sun, J. Yang, J. Huang, Y. Yu, Z. Li and C. Zhao, "LsmGANs: Image-Domain Least-Squares Migration Using a New Framework of Generative Adversarial Networks," in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-13, 2023, Art no. 5916913, doi: 10.1109/TGRS.2023.3304726.
 ```
 
 **Bib Tex:**
 
 ```
-@article{sun2023lsmgans,
-  title={LsmGANs: Image-domain least-squares migration using a new framework of generative adversarial networks},
+@ARTICLE{10215494,
   author={Sun, Jiaxing and Yang, Jidong and Huang, Jianping and Yu, Youcai and Li, Zhenchun and Zhao, Chong},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={LsmGANs: Image-Domain Least-Squares Migration Using a New Framework of Generative Adversarial Networks}, 
   year={2023},
-  publisher={IEEE}
-}
+  volume={61},
+  number={},
+  pages={1-13},
+  doi={10.1109/TGRS.2023.3304726}}
 ```
